@@ -12,7 +12,10 @@
   "bin": [
     "nugget-doom.exe"
   ],
-  "checkver": "github",
+  "checkver": {
+    "url": "https://github.com/MrAlaux/Nugget-Doom/releases/latest",
+    "regex": "nugget-doom-([\\d.]+)"
+  },
   "autoupdate": {
     "architecture": {
       "64bit": {
@@ -21,3 +24,4 @@
     }
   }
 }
+
