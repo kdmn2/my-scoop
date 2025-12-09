@@ -1,0 +1,24 @@
+{
+  "version": "4.14.3",
+  "description": "UZDoom is a feature-centric port for all Doom engine games, based on GZDoom.",
+  "homepage": "https://github.com/UZDoom/UZDoom",
+  "license": "GPL-3.0-or-later",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/UZDoom/UZDoom/releases/download/4.14.3/Windows-UZDoom-4.14.3.zip",
+      "hash": "sha256-here"
+    }
+  },
+  "bin": [
+    "uzdoom.exe"
+  ],
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/UZDoom/UZDoom/releases/download/$version/Windows-UZDoom-$version.zip"
+      }
+    }
+  }
+}
+
